@@ -265,7 +265,6 @@ let finalMax
 
 if(start || max){
 finalMax = Number(start-1) + Number(max)
-console.log(finalMax)
         final = allApps.slice(start-1,finalMax)
     }
 
