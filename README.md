@@ -33,4 +33,16 @@ Some valid examples of valid ranges:
  The seed data to populate the app is in the seed.js file.
  
  ## Approach ##
- 
+I assigned the values related to the queries (req.query) to 5 different variables to receive the ranges: by, start, end, order, and max. </br> 
+- let by = req.query.by
+- let start = req.query.start||0 --> 0 being the default value
+- let end = req.query.end 
+- let max = req.query.max||50  --> 50 being the default value
+- let order = req.query.order||"ASC"  --> ASC being the default value
+
+Sort by name is done alphabetically, sort by id numerically.
+
+Start and End can only be the name of the app, and it searches only valid app names such as my-app-001, or existing app IDs.<br/> 
+If the name of the app or the app id entered under start or end are invalid, it will return an empty array.<br/>
+I've commented the source code for further understanding.
+
