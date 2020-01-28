@@ -32,6 +32,8 @@ else if(start!=0){
     start = apps.indexOf(findStartId)
 }
 
+
+//......................sort by ID starts...............................
 //if key "by" equals id, I sort the apps array by id according to "order", where "asc" is default
 if(by =="id"){
 //I convert order to upper case to compare in case the user enters capital letters
@@ -43,6 +45,8 @@ if(by =="id"){
     }
     }
 //......................sort by ID ends................................
+
+//.....................sort by name starts..................................
 //if key "by" equals name, I sort the apps array alphabetically by name according to "order", where "asc" is default
     else if(by =="name"){
     if(order.toUpperCase()=="DESC"){
@@ -61,6 +65,7 @@ if(by =="id"){
     }
     }
 //.....................sort by name ends...................................
+
 //sorted array was assigned to AllApps variable
 
 //I calculate max total based on start 
@@ -80,7 +85,9 @@ if(end){
         let findEndId = apps.find(arr => arr.id == end); 
 //saving index of the ID found in end variable
         end = apps.indexOf(findEndId)        
-    }  
+    } 
+// If"end" identifier extends beyond what can fit inside the maximum page, the page sizes takes precedence.
+// otherwise (end is less than max), I assign end value to finalMax
     if(end<finalMax){
         finalMax = end+1;
     }
@@ -89,7 +96,7 @@ if(end){
 
 
 
-//slice the array according to start and max and send final sliced array as a json response
+//slice the array according to start and finalMax and send final sliced array as a json response
 let final = allApps.slice(start,finalMax) 
       res.json(final)
     })

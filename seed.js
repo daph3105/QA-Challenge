@@ -1,3 +1,5 @@
+//for test purposes, registers are sorted
+
 const apps = [
     {
         id : 50,
