@@ -31,3 +31,6 @@ Some valid examples of valid ranges:
  The API was built using Node.js (with Express.js).</br>
  The entire application is contained within the server.js file.</br>
  The seed data to populate the app is in the seed.js file.
+ 
+ ## Approach ##
+ 
