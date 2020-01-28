@@ -13,7 +13,7 @@ The API can be paginated by passing the following parameters:
 API endpoint:
 https://mdlive-challenge.herokuapp.com/apps returns an empty array as the field "by" is required.
 
-In order to see results, you have to enter a value for "by", it can be either: sort by "name", or sort by "id".
+In order to see results, you have to enter a value for "by", it can either be: sort by "name", or sort by "id".
 
 - sorted by name: https://mdlive-challenge.herokuapp.com/apps?by=name
 - sorted by id: https://mdlive-challenge.herokuapp.com/apps?by=id
