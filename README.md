@@ -28,6 +28,6 @@ Some valid examples of valid ranges:
 - https://mdlive-challenge.herokuapp.com/apps?by=name&start=my-app-001&end=my-app-050&max=10&order=asc
 
 
- The API was built using Node.js (with Express.js)
- The entire application is contained within the server.js file.
+ The API was built using Node.js (with Express.js).</br>
+ The entire application is contained within the server.js file.</br>
  The seed data to populate the app is in the seed.js file.
