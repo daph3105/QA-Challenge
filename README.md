@@ -42,7 +42,7 @@ I assigned the values related to the queries (req.query) to 5 different variable
 
 Sort by name is done alphabetically, sort by id numerecally.
 
-Start and End can only be the name of the app, and it searches only valid app names such as my-app-001, or existing app IDs. 
-If the name of the app or the app id entered under start or end are invalid, it will return an empty array. 
+Start and End can only be the name of the app, and it searches only valid app names such as my-app-001, or existing app IDs.<br/> 
+If the name of the app or the app id entered under start or end are invalid, it will return an empty array.<br/>
 I've commented the source code for further understanding.
 
