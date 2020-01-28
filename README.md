@@ -40,7 +40,7 @@ I assigned the values related to the queries (req.query) to 5 different variable
 - let max = req.query.max||50  --> 50 being the default value
 - let order = req.query.order||"ASC"  --> ASC being the default value
 
-Sort by name is done alphabetically, sort by id numerecally.
+Sort by name is done alphabetically, sort by id numerically.
 
 Start and End can only be the name of the app, and it searches only valid app names such as my-app-001, or existing app IDs.<br/> 
 If the name of the app or the app id entered under start or end are invalid, it will return an empty array.<br/>
