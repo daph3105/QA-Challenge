@@ -18,4 +18,14 @@ In order to see results, you have to enter a value for "by" to sort the results,
 - sorted by name: https://mdlive-challenge.herokuapp.com/apps?by=name
 - sorted by id: https://mdlive-challenge.herokuapp.com/apps?by=id
 
+Some valid examples of valid ranges:
+- https://mdlive-challenge.herokuapp.com/apps?by=id&start=1
+- https://mdlive-challenge.herokuapp.com/apps?by=id&start=1&end=5
+- https://mdlive-challenge.herokuapp.com/apps?by=id&start=5
+- https://mdlive-challenge.herokuapp.com/apps?by=id&start=1&max=5
+- https://mdlive-challenge.herokuapp.com/apps?by=id&start=1&order=desc
+- https://mdlive-challenge.herokuapp.com/apps?by=id&start=5&end=10&max=10&order=asc
+- https://mdlive-challenge.herokuapp.com/apps?by=name&start=my-app-001&end=my-app-050&max=10&order=asc
+
+
  
