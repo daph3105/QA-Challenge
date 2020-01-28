@@ -14,7 +14,7 @@ let allApps =[]
 let by = req.query.by
 let start = req.query.start||0
 let end = req.query.end 
-const max = req.query.max||50
+let max = req.query.max||50
 let order = req.query.order||"ASC" 
 //......................................................
 
