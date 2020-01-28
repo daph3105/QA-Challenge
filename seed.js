@@ -1,4 +1,4 @@
-//for test purposes, registers are sorted
+//for testing purposes, the array below is not sorted
 
 const apps = [
     {
